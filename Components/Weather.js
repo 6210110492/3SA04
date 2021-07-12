@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ImageBackground, StyleSheet, Text } from 'react-native'
+import { ImageBackground, StyleSheet, Text, View } from 'react-native'
 import Forecast from './Forecast';
 
 export default function Weather(props) {
