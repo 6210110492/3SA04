@@ -48,9 +48,12 @@ export default function ZipCodeScreen(){
 
 const styles = StyleSheet.create({
     zipItem: {
+        paddingTop: 9,
+        paddingBottom: 9,
         flex: 1,
         flexDirection: 'row',
         justifyContent: 'space-between'
+        
     },
     text: {
         fontSize: 22,
