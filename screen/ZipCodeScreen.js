@@ -3,11 +3,20 @@ import React from 'react'
 import { FlatList, View, Text, StatusBar, StyleSheet, TouchableHighlight } from 'react-native'
 
 const availableZipItems = [
-    { place: 'Hatyai', code: '90110' },
+    { place: 'Krabi', code: '81000' },
+    { place: 'Chumphon', code: '86000' },
     { place: 'Trang', code: '92000' },
-    { place: 'Chiangmai', code: '50000' },
-    { place: 'Khonkaen', code: '40000' },
-    { place: 'Chonburi', code: '20000' },
+    { place: 'Nakhon Si Thammarat', code: '80000' },
+    { place: 'Narathiwat', code: '96000' },
+    { place: 'Pattani', code: '94000' },
+    { place: 'Phang Nga', code: '82000' },
+    { place: 'Phatthalung', code: '93000' },
+    { place: 'Phuket', code: '83000' },
+    { place: 'Yala', code: '95000' },
+    { place: 'Ranong', code: '85000' },
+    { place: 'Songkhla', code: '90000' },
+    { place: 'Satun', code: '91000' },
+    { place: 'Surat Thani', code: '84000' },
 ]
    
 const ZipItem = ({place, code, navigation}) => (
